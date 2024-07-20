@@ -31,10 +31,10 @@ login.click()
 
 email = driver.find_element(by=By.ID, value='modal_email')
 #Provide your email registered in internshala
-email.send_keys('sawant27divya@gmail.com')
+email.send_keys('***@gmail.com')
 password = driver.find_element(by=By.ID, value='modal_password')
 #Password for your account
-password.send_keys('Divya2727')
+password.send_keys('**2727**')
 
 time.sleep(5)
 submit = driver.find_element(by=By.ID, value='modal_login_submit')
